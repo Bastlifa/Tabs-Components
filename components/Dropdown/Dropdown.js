@@ -21,14 +21,14 @@ class Dropdown {
 
     if (Array.from(this.content.classList).includes("dropdown-hidden"))
     {
-      TweenMax.to(this.content, .5,
+      TweenMax.to(this.content, 1.5,
       {
         className:"-=dropdown-hidden"
       })
     }
     else
     {
-      TweenMax.to(this.content, .5, 
+      TweenMax.to(this.content, 1.5, 
       {
         className:"+=dropdown-hidden"
       });
