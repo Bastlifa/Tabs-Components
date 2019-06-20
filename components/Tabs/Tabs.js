@@ -71,11 +71,27 @@ class TabItem {
     // items.forEach(item => item.classList.remove("tabs-item-selected"));
 
     // Add a class named "tabs-item-selected" to this element
+
+    // TweenMax.from(this.element, .5, 
+    // {
+    //   delay: .5,
+    //   y: 500,
+    //   x: 0
+    //   // color:"black",
+    //   // className:"+=tabs-item-selected"
+    // })
     this.element.classList.add("tabs-item-selected");
   }
 
   deselect()
   {
+    // TweenMax.to(this.element, .5, 
+    // {
+    //   x:0,
+    //   y: 500,
+    //   // color:"white",
+    //   className:"-=tabs-item-selected"
+    // })
     this.element.classList.remove("tabs-item-selected");
   }
 }
