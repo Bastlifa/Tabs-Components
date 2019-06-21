@@ -20,6 +20,7 @@
   background-color: #be2530;
 }
 .dropdown .dropdown-content {
+  z-index: -1;
   width: 100%;
   position: absolute;
   background-color: #ffffff;
